@@ -18,7 +18,7 @@
 
 [![Public Repos](https://img.shields.io/badge/Public%20Repos-37-38BDF8?style=flat-square&logo=git&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
 [![Private R&D Repos](https://img.shields.io/badge/Private%20R%26D%20Repos-31-10B981?style=flat-square&logo=lock&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
-[![Contributions](https://img.shields.io/badge/Contributions-39-A78BFA?style=flat-square&logo=githubactions&labelColor=0D1117)](https://github.com/vinukj)
+[![Contributions](https://img.shields.io/badge/Contributions-41-A78BFA?style=flat-square&logo=githubactions&labelColor=0D1117)](https://github.com/vinukj)
 [![Production Domains](https://img.shields.io/badge/Production%20Domains-6-10B981?style=flat-square&labelColor=0D1117)](https://vinayjagtap.com)
 
 </div>
@@ -33,7 +33,7 @@ Live counts are queried from the GitHub GraphQL API (`viewer`) every day at 02:0
 | --- | ---: | --- |
 | Public Repositories | <!-- STATS:PUBLIC_REPOS -->37<!-- /STATS:PUBLIC_REPOS --> | GraphQL `viewer.repositories(privacy: PUBLIC)` |
 | Private R&D & Enterprise Repos | <!-- STATS:PRIVATE_REPOS -->31<!-- /STATS:PRIVATE_REPOS --> | GraphQL `viewer.repositories(privacy: PRIVATE)` |
-| Contributions (this year) | <!-- STATS:TOTAL_CONTRIBUTIONS -->39<!-- /STATS:TOTAL_CONTRIBUTIONS --> | `contributionsCollection` (commits + PRs + restricted) |
+| Contributions (this year) | <!-- STATS:TOTAL_CONTRIBUTIONS -->41<!-- /STATS:TOTAL_CONTRIBUTIONS --> | `contributionsCollection` (commits + PRs + restricted) |
 
 The same verified snapshot is published as [`stats.json`](./stats.json) and consumed by [vinayjagtap.com](https://vinayjagtap.com) at build/ISR time.
 
