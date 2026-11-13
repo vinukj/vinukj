@@ -7,7 +7,7 @@ metrics (Public + Private), then updates:
 
   1. README.md  - Shields.io badge URLs (via regex) and the summary
                   metric table (via HTML comment markers).
-  2. stats.json - Machine-readable snapshot consumed by vinayjagtap.com.
+  2. stats.json - Machine-readable snapshot consumed by vinayjagtap.vercel.app.
 
 Requires a Fine-Grained Personal Access Token with:
   - Account permissions: Read user profile data ("user" on classic PATs)
@@ -202,7 +202,7 @@ def update_readme(stats: dict) -> bool:
 
 
 def write_stats_json(stats: dict) -> bool:
-    """Write stats.json for consumption by vinayjagtap.com.
+    """Write stats.json for consumption by vinayjagtap.vercel.app.
 
     Returns True when the file content changed.
     """
