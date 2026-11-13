@@ -1,56 +1,45 @@
-<!-- NOTE: Badge counts and the metrics table below are refreshed daily by
-     .github/workflows/update-stats.yml using the GitHub GraphQL API.
-     Do not hand-edit anything inside a STATS comment marker. -->
+<!-- Badge counts below are refreshed daily by .github/workflows/update-stats.yml
+     (GitHub GraphQL API). Don't hand-edit anything inside a STATS marker. -->
 
 <h1 align="center">Vinay Jagtap</h1>
 
-<h3 align="center">Executive CTO &nbsp;·&nbsp; Chief Systems Architect</h3>
+<h3 align="center">CTO &nbsp;·&nbsp; Chief Systems Architect — Zero-to-One Deep-Tech</h3>
 
 <p align="center">
-  Architecting zero-to-one deep-tech systems — from 60GHz edge silicon to clinical-grade AI.
-  16+ years shipping across IoT, Edge AI, Healthcare EHR, Agritech, Sportstech, and Enterprise SaaS.
+  I take systems from a blank page to production that most teams wouldn't attempt:
+  radar that reads a heartbeat with no camera and no cloud, clinical software that
+  ships five times faster under HIPAA, a newsroom that reports itself.
+  16+ years of closing the gap between what the silicon allows and what the market
+  believes is possible — across IoT, Edge AI, Healthcare EHR, Agritech, Sportstech,
+  and Enterprise SaaS.
 </p>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-vinayjagtap.com-38BDF8?style=flat-square&labelColor=0D1117)](https://vinayjagtap.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-38BDF8?style=flat-square&labelColor=0D1117)](https://vinayjagtap.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-vinukj-181717?style=flat-square&logo=github&labelColor=0D1117)](https://github.com/vinukj)
 
 [![Public Repos](https://img.shields.io/badge/Public%20Repos-37-38BDF8?style=flat-square&logo=git&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
 [![Private R&D Repos](https://img.shields.io/badge/Private%20R%26D%20Repos-31-10B981?style=flat-square&logo=lock&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
 [![Contributions](https://img.shields.io/badge/Contributions-41-A78BFA?style=flat-square&logo=githubactions&labelColor=0D1117)](https://github.com/vinukj)
-[![Production Domains](https://img.shields.io/badge/Production%20Domains-6-10B981?style=flat-square&labelColor=0D1117)](https://vinayjagtap.com)
+[![Production Domains](https://img.shields.io/badge/Production%20Domains-6-10B981?style=flat-square&labelColor=0D1117)](https://vinayjagtap.vercel.app)
 
 </div>
 
 ---
 
-## Verified Engineering Metrics
+## Six Production Domains
 
-Live counts are queried from the GitHub GraphQL API (`viewer`) every day at 02:00 UTC via a zero-maintenance GitHub Actions pipeline. Contributions include commits, pull requests, and restricted contributions made to private enterprise repositories.
+Six domains, each taken from first principles to systems running in the field. The pattern is constant: find the constraint everyone designs around, and design through it instead.
 
-| Metric | Value | Source |
-| --- | ---: | --- |
-| Public Repositories | <!-- STATS:PUBLIC_REPOS -->37<!-- /STATS:PUBLIC_REPOS --> | GraphQL `viewer.repositories(privacy: PUBLIC)` |
-| Private R&D & Enterprise Repos | <!-- STATS:PRIVATE_REPOS -->31<!-- /STATS:PRIVATE_REPOS --> | GraphQL `viewer.repositories(privacy: PRIVATE)` |
-| Contributions (this year) | <!-- STATS:TOTAL_CONTRIBUTIONS -->41<!-- /STATS:TOTAL_CONTRIBUTIONS --> | `contributionsCollection` (commits + PRs + restricted) |
-
-The same verified snapshot is published as [`stats.json`](./stats.json) and consumed by [vinayjagtap.com](https://vinayjagtap.com) at build/ISR time.
-
----
-
-## Domains & Architecture Matrix
-
-Six production domains in active operation — each architected end-to-end, from silicon constraints to compliance envelopes.
-
-| # | Domain | Flagship Systems | Architecture Summary |
+| # | Domain | Flagship Systems | The Constraint I Designed Through |
 | --- | --- | --- | --- |
-| 1 | **Edge AI & Contactless Sensing** | *AuraSENSE* | ESP32-S3 + 60GHz mmWave radar. On-device vitals extraction (HR/RR) and movement state machines running entirely at the MCU edge — zero-cloud, privacy-first sensing. |
-| 2 | **Sportstech & Wearables** | *FanAura · Smart Jersey · AthletePulse* | Real-time biometric telemetry pipelines with INT8-quantized MediaPipe pose estimation running on budget edge Android devices. |
-| 3 | **Healthcare & Clinical EHR** | *Enterprise EHR & Compliance* | HIPAA-aligned clinical workflows, HTI/EHI export pipelines, and an AI-accelerated SDLC that compressed release cycles from 20 weeks to 4 weeks. |
-| 4 | **Agritech & Computer Vision** | *Microbitech* | Deep-learning vision analytics for automated plant pathology and crop diagnostics, deployed into field-scale growing operations. |
-| 5 | **Autonomous Media & Publishing** | *Kannada Dunia* | Multi-agent AI newsroom: editorial ingestion, automated verification, and end-to-end publishing with human editorial oversight. |
-| 6 | **Enterprise SaaS & E-Commerce** | *Adobe / Microsoft Initiatives* | E-commerce latency optimization up to 400%, PCI-compliant payment flows, and enterprise ERP platform engineering. |
+| 1 | **Edge AI & Contactless Sensing** | *AuraSENSE* | Privacy and comfort killed contact sensing. So the vitals (HR/RR) and movement state machines run entirely on an ESP32-S3 behind 60GHz mmWave radar — no camera, no cloud, zero bytes of raw data leaving the device. |
+| 2 | **Sportstech & Wearables** | *FanAura · Smart Jersey · AthletePulse* | Biometric and motion analytics were locked behind capture rigs and cloud round-trips. INT8-quantized MediaPipe pose estimation runs on budget edge Android — live telemetry at fan-event latency. |
+| 3 | **Healthcare & Clinical EHR** | *Enterprise EHR & Compliance* | Clinical software must move at consumer speed inside a HIPAA/HTI-EHI envelope with zero-defect charting. Built the AI-accelerated SDLC that took release cycles from 20 weeks to 4 — without bending the compliance envelope. |
+| 4 | **Agritech & Computer Vision** | *Microbitech* | By the time an expert agronomist confirms plant pathology, the yield loss is already locked in. Deep-learning vision diagnostics now run near the point of capture, at field scale, inside agricultural unit economics. |
+| 5 | **Autonomous Media & Publishing** | *Kannada Dunia* | Regional-language newsrooms can't outpace aggregators while meeting editorial standards — and the tooling never existed for Kannada. Built the multi-agent newsroom: ingestion → drafting → verification → human gate → publish. |
+| 6 | **Enterprise SaaS & E-Commerce** | *Adobe / Microsoft Initiatives* | At enterprise scale, milliseconds are revenue and every payment path is an audit surface. Drove e-commerce latency gains up to 400% with PCI-compliant flows and ERP integrations that survive both benchmarks and audits. |
 
 ---
 
@@ -107,8 +96,18 @@ Six production domains in active operation — each architected end-to-end, from
 
 ---
 
+## Verified Snapshot
+
+| Public Repositories | Private R&D & Enterprise Repos | Contributions This Year |
+| :---: | :---: | :---: |
+| <!-- STATS:PUBLIC_REPOS -->37<!-- /STATS:PUBLIC_REPOS --> | <!-- STATS:PRIVATE_REPOS -->31<!-- /STATS:PRIVATE_REPOS --> | <!-- STATS:TOTAL_CONTRIBUTIONS -->41<!-- /STATS:TOTAL_CONTRIBUTIONS --> |
+
+*The private count matters more than the public one — most of this work ships under NDA. Live totals live in [`stats.json`](./stats.json).*
+
+---
+
 <div align="center">
 
-**[vinayjagtap.com](https://vinayjagtap.com)** &nbsp;·&nbsp; **[github.com/vinukj](https://github.com/vinukj)**
+**[Portfolio — Architecture Explorer](https://vinayjagtap.vercel.app)** &nbsp;·&nbsp; **[github.com/vinukj](https://github.com/vinukj)**
 
 </div>
