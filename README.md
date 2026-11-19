@@ -19,7 +19,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-38BDF8?style=flat-square&labelColor=0D1117)](https://vinayjagtap.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-vinukj-181717?style=flat-square&logo=github&labelColor=0D1117)](https://github.com/vinukj)
 
-[![Public Repos](https://img.shields.io/badge/Public%20Repos-37-38BDF8?style=flat-square&logo=git&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
+[![Public Repos](https://img.shields.io/badge/Public%20Repos-38-38BDF8?style=flat-square&logo=git&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
 [![Private R&D Repos](https://img.shields.io/badge/Private%20R%26D%20Repos-31-10B981?style=flat-square&logo=lock&labelColor=0D1117)](https://github.com/vinukj?tab=repositories)
 [![Contributions](https://img.shields.io/badge/Contributions-46-A78BFA?style=flat-square&logo=githubactions&labelColor=0D1117)](https://github.com/vinukj)
 [![Production Domains](https://img.shields.io/badge/Production%20Domains-6-10B981?style=flat-square&labelColor=0D1117)](https://vinayjagtap.vercel.app)
@@ -100,7 +100,7 @@ Six domains, each taken from first principles to systems running in the field. T
 
 | Public Repositories | Private R&D & Enterprise Repos | Contributions This Year |
 | :---: | :---: | :---: |
-| <!-- STATS:PUBLIC_REPOS -->37<!-- /STATS:PUBLIC_REPOS --> | <!-- STATS:PRIVATE_REPOS -->31<!-- /STATS:PRIVATE_REPOS --> | <!-- STATS:TOTAL_CONTRIBUTIONS -->46<!-- /STATS:TOTAL_CONTRIBUTIONS --> |
+| <!-- STATS:PUBLIC_REPOS -->38<!-- /STATS:PUBLIC_REPOS --> | <!-- STATS:PRIVATE_REPOS -->31<!-- /STATS:PRIVATE_REPOS --> | <!-- STATS:TOTAL_CONTRIBUTIONS -->46<!-- /STATS:TOTAL_CONTRIBUTIONS --> |
 
 *The private count matters more than the public one — most of this work ships under NDA. Live totals live in [`stats.json`](./stats.json).*
 
